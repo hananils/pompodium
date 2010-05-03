@@ -1,0 +1,1 @@
+![Teaser](http://github.com/nilshoerrmann/pompodium/raw/master/pompodium.png)
