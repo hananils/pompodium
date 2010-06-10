@@ -1,3 +1,14 @@
+# Welcome, this is Pompodium #
+
+Three years ago, we set out to create a magazine. What started as an idea to create a platform for photos and articles on typography and design, travel and life finally found it's destination: this is Pompodium, a free ensemble for Symphony.
+
+After months spent thinking, talking, brainstorming, scribbling, designing, pushing pixels, writing code, being overtaken with new ideas and starting all over again for about three times, the nearly finished website sat untouched for one year. Patiently awaiting its future destiny, the mention of a Symphony meet-up in London finally caused an epiphany to release Pompodium as a magazine-style ensemble for this occasion. Hooray!
+
+An update from Symphony 2.0 beta to 2.0.8, a completely overhauled structure, translation from German to English and matching documentation later, everything is freshened up and ready to play. Pompodium is licenced under [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/) and can be downloaded on [GitHub](http://github.com/nilshoerrmann/pompodium). So grab your copy and have fun with it!
+
+[Johanna](http://www.johannahoerrmann.de) & [Nils Hörrmann](http://www.nilshoerrmann.de)
+
+
 # Symphony 2 #
 
 - Version: 2.0.8 Release Candidate 1
