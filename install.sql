@@ -31,6 +31,17 @@ CREATE TABLE `tbl_cache` (
   KEY `hash` (`hash`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+-- *** STRUCTURE: `tbl_canofspam_tracking`***
+DROP TABLE IF EXISTS `tbl_canofspam_tracking`;
+CREATE TABLE `tbl_canofspam_tracking` (
+  `id` int(11) NOT NULL auto_increment,
+  `client` varchar(32) NOT NULL default '',
+  `form` varchar(32) default NULL,
+  PRIMARY KEY  (`id`),
+  KEY `client` (`client`),
+  KEY `form` (`form`)
+) ENGINE=MyISAM AUTO_INCREMENT=159 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 -- *** STRUCTURE: `tbl_entries` ***
 DROP TABLE IF EXISTS `tbl_entries`;
 CREATE TABLE `tbl_entries` (

@@ -676,6 +676,7 @@ INSERT INTO `tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (23, 'ty
 INSERT INTO `tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (24, 'output_field', 'enabled', 1.1);
 INSERT INTO `tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (26, 'documenter', 'disabled', '0.9.8');
 INSERT INTO `tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (27, 'localisationmanager', 'enabled', 1.3);
+INSERT INTO `tbl_extensions` (`id`,`name`,`status`,`version`) VALUES (19, 'datetime', 'enabled', '1.3');
 
 -- *** DATA: `tbl_extensions_delegates` ***
 INSERT INTO `tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (15, 9, '/frontend/', 'ManipulateDevKitNavigation', 'manipulateDevKitNavigation');
