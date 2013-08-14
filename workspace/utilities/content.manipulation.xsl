@@ -37,7 +37,7 @@
 				<xsl:with-param name="mode" select="2" />
 				<xsl:with-param name="width" select="600" />
 			</xsl:call-template>
-			<xsl:apply-templates select="/data/articles-media/entry[@id = /data/params/ds-articles-current.media/item]" mode="figure" />
+			<xsl:apply-templates select="/data/articles-media/entry[file/filename = $file]" mode="figure" />
 		</figure>
 	</xsl:if>
 </xsl:template>
