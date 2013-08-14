@@ -32,7 +32,7 @@
 <xsl:template match="data">
 	<html>
 		<head>
-			<meta name="viewport" content="width=500" />
+			<meta name="viewport" content="width=device-width" />
 			<title>
 				<xsl:value-of select="$website-name" />
 				<xsl:text> · </xsl:text>
