@@ -12,10 +12,10 @@
 		###### SYMPHONY ######
 		'symphony' => array(
 			'pagination_maximum_rows' => '20',
-            'association_maximum_rows' => '5',
+			'association_maximum_rows' => '5',
 			'lang' => 'en',
 			'pages_table_nest_children' => 'no',
-			'version' => VERSION,
+			'version' => '2.3.3',
 			'cookie_prefix' => 'sym-',
 			'session_gc_divisor' => '10',
 		),
@@ -51,7 +51,7 @@
 
 		###### GENERAL ######
 		'general' => array(
-			'sitename' => 'Symphony CMS',
+			'sitename' => 'pompodium',
 		),
 		########
 
@@ -75,7 +75,7 @@
 			'time_format' => 'g:i a',
 			'date_format' => 'm/d/Y',
 			'datetime_separator' => ' ',
-			'timezone' => null
+			'timezone' => 'Europe/Berlin',
 		),
 		########
 
@@ -84,6 +84,38 @@
 		'image' => array(
 			'cache' => '1',
 			'quality' => '90',
+		),
+		########
+
+
+		###### MAINTENANCE_MODE ######
+		'maintenance_mode' => array(
+			'enabled' => 'no',
+		),
+		########
+
+
+		###### SORTING ######
+		'sorting' => array(
+			'section_entries_sortby' => '4',
+			'section_entries_order' => 'desc',
+			'section_articles_sortby' => '4',
+			'section_articles_order' => 'desc',
+		),
+		########
+
+
+		###### DATETIME ######
+		'datetime' => array(
+			'english' => 'en, en_GB.UTF8, en_GB',
+		),
+		########
+
+
+		###### DOCUMENTATION ######
+		'documentation' => array(
+			'text-formatter' => 'none',
+			'button-text' => 'Documentation',
 		),
 		########
 	);
