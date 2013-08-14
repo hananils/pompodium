@@ -1,0 +1,4 @@
+.htaccess
+manifest/
+install-log.txt
+install/logs/
