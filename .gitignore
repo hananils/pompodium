@@ -2,3 +2,4 @@
 manifest/
 install-log.txt
 install/logs/
+workspace/media/*
