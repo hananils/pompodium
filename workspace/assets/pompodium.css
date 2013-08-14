@@ -38,10 +38,10 @@ body {
 }
 
 body {
-	background-image: -webkit-linear-gradient(0, transparent 0, transparent 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
-	background-image: -ms-linear-gradient(0, transparent 0, transparent 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
-	background-image: -o-linear-gradient(0, transparent 0, transparent 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
-	background-image: linear-gradient(0, transparent 0, transparent 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
+	background-image: -webkit-linear-gradient(0, #fff 0, #fff 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
+	background-image: -ms-linear-gradient(0deg, #fff 0, #fff 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
+	background-image: -o-linear-gradient(0, #fff 0, #fff 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
+	background-image: linear-gradient(90deg, #fff 0, #fff 2.5rem, #F9F9F9 2.5rem, #F9F9F9 5rem);
 	background-size: 5rem 100%;
 	background-position: center top;
 	background-repeat: repeat-x;
