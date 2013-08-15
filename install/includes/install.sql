@@ -41,7 +41,7 @@ CREATE TABLE`tbl_documentation` (
   `content` text COLLATE utf8_unicode_ci,
   `content_formatted` text COLLATE utf8_unicode_ci,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** STRUCTURE: `sym_entries` ***
 DROP TABLE IF EXISTS`tbl_entries`;
@@ -134,7 +134,7 @@ CREATE TABLE`tbl_fields_date` (
   `pre_populate` enum('yes','no') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'no',
   PRIMARY KEY (`id`),
   KEY `field_id` (`field_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** STRUCTURE: `sym_fields_datetime` ***
 DROP TABLE IF EXISTS`tbl_fields_datetime`;

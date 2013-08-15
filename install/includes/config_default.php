@@ -84,6 +84,8 @@
 		'image' => array(
 			'cache' => '1',
 			'quality' => '90',
+			'disable_regular_rules' => 'no',
+			'disable_upscaling' => 'no',
 		),
 		########
 
@@ -105,6 +107,14 @@
 		########
 
 
+		###### DOCUMENTATION ######
+		'documentation' => array(
+			'text-formatter' => 'markdown_extra_with_smartypants',
+			'button-text' => 'Help',
+		),
+		########
+
+
 		###### DATETIME ######
 		'datetime' => array(
 			'english' => 'en, en_GB.UTF8, en_GB',
@@ -112,10 +122,9 @@
 		########
 
 
-		###### DOCUMENTATION ######
-		'documentation' => array(
-			'text-formatter' => 'none',
-			'button-text' => 'Documentation',
+		###### HTML5_DOCTYPE ######
+		'html5_doctype' => array(
+			'exclude_pagetypes' => null,
 		),
 		########
 	);
