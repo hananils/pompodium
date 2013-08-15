@@ -8,7 +8,7 @@
 	License: http://pompodium.de/license/symphony
 -->
 
-<xsl:import href="article.xsl" />
+<xsl:import href="articles.xsl" />
 
 
 </xsl:stylesheet>
