@@ -6,7 +6,7 @@ After months spent thinking, talking, brainstorming, scribbling, designing, push
 
 Today, three years after its first release, we finally updated Pompodium to the latest Symphony version, everything is freshened up and ready to play: we simplified the backend structure, made the layout adapt to the screen responsively and made use of modern technology. Using SVG images where needed and webfonts all over, this ensemble is ready for retina displays as well. 
 
-[Pompodium is available on Github](http://github.com/hananils/pompodium) and can be evaluated freely. If you'd like to use it in production, for a client or for yourself, you'll have to [buy a licence](http://pompodium.de/licence/). So grab your copy and have fun with it!
+[Pompodium is available on Github](http://github.com/hananils/pompodium) and can be evaluated for free. As soon as you want to use Pompodium in production, you must [purchase a licence](http://pompodium.de/licence/). A licence is **25 €** (excluding taxes) and valid for a single website. <a href="mailto:support@pompodium.de?subject=Pompodium%20Ensemble">Send us an email</a> for inquiries or further questions!
 
 # Symphony 2
 
