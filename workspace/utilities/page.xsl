@@ -5,7 +5,7 @@
 <!--
 	POMPODIUM 2.0 – A Symphony Ensemble
 	Copyright © 2007-2013 hana+nils · Büro für Web- und Textgestaltung, http://hananils.de
-	License: http://pompodium.de/license/symphony
+	License: http://pompodium.de/licence/
 -->
 
 <xsl:import href="../utilities/content.xsl" />
