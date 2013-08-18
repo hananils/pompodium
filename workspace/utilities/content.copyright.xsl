@@ -48,7 +48,7 @@
 	<xsl:if test="ancestor::entry/author"> – </xsl:if>
 	<xsl:choose>
 		<xsl:when test="starts-with(@handle, 'cc')">
-			<a href="http://creativecommons.org/licenses/{substring-after(@handle, 'cc-')}/3.0/" alt="{.}">Some rights reserved</a>
+			<a href="http://creativecommons.org/licenses/{substring-after(@handle, 'cc-')}/3.0/" title="{.}">Some rights reserved</a>
 		</xsl:when>
 		<xsl:otherwise>
 			<xsl:value-of select="." />
