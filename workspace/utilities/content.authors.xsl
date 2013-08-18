@@ -28,7 +28,7 @@
 
 <xsl:template match="authors/entry" mode="content">
 	<li>
-		<img src="http://www.gravatar.com/avatar/{email/@hash}?s=170" width="85" height="85" />
+		<img src="http://www.gravatar.com/avatar/{email/@hash}?s=170" width="85" height="85" alt="{name}" />
 		<p>
 			<a href="{$root}/{$root-page}/author/{name/@handle}">
 				<xsl:value-of select="name" />
