@@ -64,7 +64,7 @@
 <xsl:template match="articles-current/entry" mode="content">
 	<article class="main column-wrapper">
 		<div class="column">
-			<xsl:apply-templates select="body" mode="ninja" />
+			<xsl:apply-templates select="body/*" mode="ninja" />
 			<xsl:apply-templates select="/data/articles-media/entry[@id != /data/articles-current/entry/cover-image/item/@id]" mode="image" />
 		</div>
 	</article>
